@@ -12,7 +12,6 @@ void bubble_sort( int a[], int  n){
                 swap(a[j], a[j+1]);
             }
         }
-
     }
 
 }
@@ -31,7 +30,7 @@ int main() {
 
     bubble_sort(a, n);
 
-     for(int i=0; i<n; i++){
+     for(int i=0; i < n; i++){
         cout << a[i] << " ,";
     }
 

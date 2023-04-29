@@ -6,6 +6,7 @@ using namespace std;
 
 int main() {
     int n, key;
+
     cin >> n;
 
     int a[1000];

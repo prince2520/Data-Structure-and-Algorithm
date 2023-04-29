@@ -1,9 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// Linear Search
-
-// A particular element in the array
+// Selection Sort
 
 int selection_sort(int a[], int n){
     for(int i = 0; i< n-1; i++){
@@ -13,7 +11,6 @@ int selection_sort(int a[], int n){
         for(int j = i; j <= n - 1; j++){
             if(a[j] < a[min_index]){
                 min_index = j;
-    
             }
         }
 
@@ -36,7 +33,6 @@ int main() {
 
     for(int i=0; i<n; i++){
         cout << a[i] << " ,";
-
     }
 
     cout << endl;
